@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('https://example.com/tarot-background.jpg'); /* Asigură-te că schimbi URL-ul cu cel al imaginii dorite */
+            background-image: url('[https://example.com/tarot-background.jpg]');
             background-size: cover;
             color: #e0d3d3;
             margin: 0;
