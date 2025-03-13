@@ -1,11 +1,3 @@
-Acesta este un site web dedicat serviciilor esoterice, cum ar fi citirile de tarot, analizele astrologice și altele. Acest proiect conține o pagină principală care permite utilizatorilor să aleagă între diferite tipuri de citiri și consultații esoterice. De asemenea, sunt disponibile informații despre prețuri și o modalitate de a contacta prin Instagram.
-
-## Tehnologii Folosite
-
-- HTML
-- CSS
-- JavaScript
-
 ## Servicii Oferite
 
 1. *Analiza Astrală* - 155 Lei
@@ -19,9 +11,3 @@ Acesta este un site web dedicat serviciilor esoterice, cum ar fi citirile de tar
 9. *Matrix Chart Cuplu* - 260 Lei
 10. *Mesaje de la Univers* - 36 Lei
 11. *Ghidare pentru Vindecarea Chakrelor* - 150 Lei
-
-## Instrucțiuni de Instalare
-
-1. Clonează acest depozit:
-   ```bash
-   git clone https://github.com/username/tarot-servicii-esoterice.git
