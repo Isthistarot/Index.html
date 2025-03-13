@@ -1,80 +1,27 @@
-<!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultanță Tarot - IsthisTarot</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #2e2b3d;
-            color: #e0d3d3;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            line-height: 1.6;
-            height: 100vh;
-        }
-        h1, h2 {
-            color: #c3a6f9;
-        }
-        h1 {
-            margin-top: 20px;
-        }
-        .content {
-            max-width: 800px;
-            padding: 20px;
-            text-align: center;
-            background-color: rgba(46, 43, 61, 0.8);
-            border-radius: 10px;
-        }
-        .magic-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #c3a6f9;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            color: white;
-            margin: 20px 0;
-        }
-        .response {
-            margin-top: 15px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #e0d3d3;
-        }
-        footer {
-            margin: 20px 0;
-            font-size: 14px;
-            color: #c3a6f9;
-        }
-    </style>
-</head>
-<body>
-    <div class="content">
-        <h1>Consultanță Tarot cu IsthisTarot</h1>
-        <p>
-            Pune o întrebare și apasă butonul pentru a obține un răspuns! 
-        </p>
-        
-        <button class="magic-button" onclick="getResponse()">Întreabă-mă!</button>
-        <div class="response" id="response"></div>
-        
-        <footer>
-            &copy; 2023 IsthisTarot. Toate drepturile rezervate.
-        </footer>
-    </div>
+Acesta este un site web dedicat serviciilor esoterice, cum ar fi citirile de tarot, analizele astrologice și altele. Acest proiect conține o pagină principală care permite utilizatorilor să aleagă între diferite tipuri de citiri și consultații esoterice. De asemenea, sunt disponibile informații despre prețuri și o modalitate de a contacta prin Instagram.
 
-    <script>
-        function getResponse() {
-            const responses = ["Da", "Nu"];
-            const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-            document.getElementById("response").innerText = randomResponse;
-        }
-    </script>
-</body>
-</html>
+## Tehnologii Folosite
+
+- HTML
+- CSS
+- JavaScript
+
+## Servicii Oferite
+
+1. *Analiza Astrală* - 155 Lei
+2. *Birth Chart* - 200 Lei
+3. *Citire Generală* - 45 Lei
+4. *Citire Tarot (30 min)* - 120 Lei
+5. *Citire Tarot (60 min)* - 220 Lei
+6. *3 Întrebări + Citire Generală* - 55 Lei
+7. *Matrix Chart* - 210 Lei
+8. *Numerologie* - 100 Lei
+9. *Matrix Chart Cuplu* - 260 Lei
+10. *Mesaje de la Univers* - 36 Lei
+11. *Ghidare pentru Vindecarea Chakrelor* - 150 Lei
+
+## Instrucțiuni de Instalare
+
+1. Clonează acest depozit:
+   ```bash
+   git clone https://github.com/username/tarot-servicii-esoterice.git
